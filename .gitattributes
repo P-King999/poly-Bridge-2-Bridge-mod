@@ -1,0 +1,8 @@
+# Keep the Chinese Markdown docs as LF so they render identically everywhere
+# and never show whole-file diffs on Windows checkouts.
+* text=auto eol=lf
+
+# Binary assets must never be line-ending translated.
+*.png binary
+*.apk binary
+*.exe binary
